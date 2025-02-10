@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read the data from the CSV file
-df = pd.read_csv('data.csv')
+df = pd.read_csv('bar_assignment.csv')
 
 # Transform 1 into "Yes" and 0 into "No"
 df['COUNT'] = df['COUNT'].map({1: 'Yes', 0: 'No'})
